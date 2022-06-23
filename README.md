@@ -1,8 +1,9 @@
 # Kizito.github.io https://github.com/KizzyAdrain/Kizito.github.io
 ### **Support for Clinical Decision**
 Clinical decision support systems have undergone a quick change in the current healthcare sector. They are now frequently monitored or administered through computerized clinical processes and electronic medical records, which has been made possible by the expanding global usage of sophisticated electronic medical records.
- **[image](https://www.researchgate.net/profile/Saifur_Rahaman/publication/281691322/figure/fig1/AS:384356074967044@1468649037543/Design-Level-BRB-CDSS-Architecture.png)
+ **![Design-Level-BRB-CDSS-Architecture](https://user-images.githubusercontent.com/102212173/175336235-f4fab4d2-c698-4080-85b8-ada98b1b9665.png)
 **
+
 Software called a clinical decision support system (CDSS) analyzes patient data to help doctors make judgments. Along with doctors and nurses, CDS (Clinical Decision Support) is for staff members, patients, and other caregivers. Therapeutic decision support systems (cdss) are computer-based programs that analyze data from electronic health records (EHRs) and provide cues and reminders to help healthcare professionals follow clinical recommendations that are supported by evidence at the point of care. Any system, practice, or method involving health information technology (HIT) that attempts to:
 
 	With the appropriate information, to the appropriate individuals (the patient and the entire care team) (evidence-based recommendations, reaction to clinical need).
@@ -43,9 +44,11 @@ The CDS can issue an appropriate alert to consider important factors that might 
 ***Purpose of CDSS***
           By enabling the analysis of patient data and the use of that data to assist in the development of a diagnosis, CDS's main objective is to improve healthcare. In order to help doctors and other primary care professionals offer their patients with better care, a CDSS gives information to them. Reminders, warnings, and care suggestions are sent out by a CDDS tool. CDDS can boost productivity while also enabling cost-effective healthcare.
 Modern approaches, however, enable physicians to connect with CDSS and use both their expertise and CDSS to evaluate patient data more effectively than either humans or CDSS could do on their own. Typically, the clinician will extract pertinent information from the data offered and disapprove of incorrect CDSS proposals after reviewing the suggestions made by the CDSS. Knowledge basis and non-knowledge base CDSS are the two primary categories. 
+
 ***Knowledge-based CDSS*** 
 The knowledge base, an inference engine, and a communication mechanism make up the majority of CDSSs. The knowledge base comprises the rules and associations of compiled data, which are most frequently expressed as IFTHEN rules, according to Peyman et al. If this were a system for identifying drug interactions, a rule may read, "Alert user IF drug X AND drug Y are taken." An experienced user could update the knowledge base with new medications by using a different interface. The knowledge base's rules are combined with the patient's data by the inference engine. The system can receive input from the user and display results thanks to the communication mechanism. 
 For representing knowledge artifacts in a computable manner, an expression language is required, such as GELLO or CQL (Clinical Quality Language). For instance, retesting is advised if more than six months have gone since the patient's last hemoglobin A1c test result was less than 7 percent, but re-examination is advised if it was 7 percent or more. -Check if it has been longer than three months. Building on the Clinical Quality Language is the HL7 CDS WG's current priority (CQL). The eCQM specification will now employ CQL, according to CMS https://ecqi.healthit.gov/cql).
+
 ***Non-knowledge base CDSS***
 Machine learning is a type of artificial intelligence that is used by CDSS, which does not use a knowledge base. This enables computers to draw lessons from the past and identify patterns in health data. This eliminates the requirement for regulations and expert judgment. The majority of clinicians do not employ machine learning-based systems directly for diagnosis because to reliability and accountability concerns because they cannot explain why a decision was reached. Even so, it might be used as a post-diagnosis system to flag patterns for doctors to look into further.
 
@@ -59,6 +62,7 @@ Machine learning is a type of artificial intelligence that is used by CDSS, whic
 •	Analyzing filtered information or education material
 
 ***Conclusion***
+
 In order to support sophisticated analytics, CDS systems are increasingly incorporating artificial intelligence and machine learning. Large amounts of data may be ingested by machine learning algorithms, which can then spot trends and give consumers in-depth results. A clinical decision support system's main goal is to assist medical professionals in making decisions, much like an enterprise support system does for business experts. Alternative perspectives on clinical decision support technologies include improved patient outcomes and patient satisfaction. 
 
 ***References:***
